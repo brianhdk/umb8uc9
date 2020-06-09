@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".git", ".git", "{EEADADFC-1
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relewise.Plugins.UCommerce", "src\Relewise.Plugins.UCommerce\Relewise.Plugins.UCommerce.csproj", "{FB1D451B-E999-472B-A5CD-BB40D07510DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{9A3EB08D-BAFE-482A-9415-47A31C230007}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A3EB08D-BAFE-482A-9415-47A31C230007}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A3EB08D-BAFE-482A-9415-47A31C230007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB1D451B-E999-472B-A5CD-BB40D07510DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB1D451B-E999-472B-A5CD-BB40D07510DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB1D451B-E999-472B-A5CD-BB40D07510DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1D451B-E999-472B-A5CD-BB40D07510DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

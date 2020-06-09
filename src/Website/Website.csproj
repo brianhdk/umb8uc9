@@ -423,12 +423,19 @@
     <Content Include="Views\Partials\Grid\Editors\Base.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap3.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap3-Fluid.cshtml" />
+    <Content Include="Umbraco\Ucommerce\Apps\Relewise\Relewise.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Relewise.Plugins.UCommerce\Relewise.Plugins.UCommerce.csproj">
+      <Project>{fb1d451b-e999-472b-a5cd-bb40d07510da}</Project>
+      <Name>Relewise.Plugins.UCommerce</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
